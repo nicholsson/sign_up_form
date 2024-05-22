@@ -70,7 +70,7 @@ form p a {
 	height: 100%;
 }
 .inputContainer{
-	height: 35%;
+	height: 45%;
 	background-color: white;
     display: flex;
     flex-direction: column;
@@ -83,14 +83,16 @@ form p a {
 }
 .infoContainer{
     display:flex;
-    margin-bottom: 3%;
+    margin-bottom: 5px;
 }
 .column{
     margin-left: 4%;
     display: flex;
     flex-direction: column;
 }
-
+.messageContainer{
+	min-height: 10%;
+}
 label{
 	color: rgb(86, 86, 86);
 	font-size: 0.7em;
